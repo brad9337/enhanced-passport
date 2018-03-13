@@ -1,0 +1,101 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <div class="phase-banner">
+    <p>
+    <strong class="phase-tag">BETA</strong>
+    <span>This is a new service – your <a href="give-feedback.html">feedback</a> will help us to improve it.</span>
+    </p>
+    </div>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+       
+
+          
+
+
+      <a class="link-back" href="dec.html">Back</a>
+
+      <div class="form-group">
+          
+        
+          <form>
+  <div class="form-group">
+    
+      <fieldset class="inline">
+
+      <legend>
+          <h1 class="heading-large">
+             Payment for UK adult passport 
+              </h1>
+          
+      </legend>
+          
+          <br>
+     <p>Accepted cards</p>  
+     <img src="https://www.thezincgroup.com/wp-content/uploads/2014/10/credit-card-logos-1024x186.jpg" style="width:220px;height:40px;">  
+     <p>Card number (without spaces)</p>
+     <input class="form-control" id="ni-number" type="number" name="ni-number">
+     <br>
+     <br>
+     <p>Expiry date</p>
+     <fieldset>
+                                                      
+                                                      <div class="form-date">
+                                                        <div class="form-group form-group-day">
+                                                          <label class="form-label" for="dob-day">Day</label>
+                                                          <input class="form-control" id="dob-day" name="dob-day" type="number" pattern="[0-9]*" min="0" max="31" aria-describedby="dob-hint">
+                                                        </div>
+                                                        <div class="form-group form-group-month">
+                                                          <label class="form-label" for="dob-month">Month</label>
+                                                          <input class="form-control" id="dob-month" name="dob-month" type="number" pattern="[0-9]*" min="0" max="12">
+                                                        </div>
+                                                      </div>
+
+</fieldset> 
+          <br>
+          
+          <p>Security code</p>
+          <div class="form-date">
+          <div class="form-group form-group-day">
+          <input class="form-control" id="dob-day" name="dob-day" type="number" pattern="[0-9]*" min="0" max="31" aria-describedby="dob-hint">
+          </div>
+          </div>
+          
+          
+                    
+ </fieldset>
+  </div>
+   </form> 
+          
+          
+          
+          
+          
+          
+
+         
+    </div>
+    <div><a class="button" style="margin-right: 10px" href="confirmation-page.html" role="button">Confirm</a>
+    </div>
+        
+  </div>
+      <div class="column-one-quarter" style="margin-left: 80px;">
+          <br>
+          <aside class="govuk-related-items" data-module="track-click" role="complementary"></aside>
+            <h1 class="heading-small">Passport Adviceline</h1>
+          
+          <font size="3">Telephone:</font> <br><font size="3">0300 222 0000</font><br>
+<font size="3">From outside the UK:</font> <br>
+    <font size="3">+44 (0)300 222 0000</font>
+        </div>
+</div>
+</main>
+
+{% endblock %}

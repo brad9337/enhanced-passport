@@ -1,0 +1,99 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <div class="phase-banner">
+    <p>
+    <strong class="phase-tag">BETA</strong>
+    <span>This is a new service – your <a href="#">feedback</a> will help us to improve it.</span>
+    </p>
+    </div>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+       
+
+          
+
+
+      
+
+      <div class="form-group">
+          
+        
+          <form>
+  <div class="form-group">
+    
+      <fieldset class="inline">
+
+      <legend>
+          <h1 class="heading-xlarge">
+             Give feedback 
+              </h1>
+          <h1 class="heading-medium">
+             Overall, how did you feel about the service you received today?
+              </h1>
+      </legend>
+                        
+ </fieldset>
+  </div>
+   </form> 
+          
+          
+          
+          
+           <div class="multiple-choice">
+        <input id="radio-1" type="radio" name="radio-group" value="Northern Ireland">
+        <label for="radio-1">Very satisfied</label>
+      </div>
+      <div class="multiple-choice">
+        <input id="radio-2" type="radio" name="radio-group" value="Isle of Man or the Channel Islands">
+        <label for="radio-2">Satisfied</label>
+      </div>
+          <div class="multiple-choice">
+        <input id="radio-2" type="radio" name="radio-group" value="Isle of Man or the Channel Islands">
+        <label for="radio-2">Neither satisfied or dissatisfied</label>
+      </div> 
+          <div class="multiple-choice">
+        <input id="radio-2" type="radio" name="radio-group" value="Isle of Man or the Channel Islands">
+        <label for="radio-2">Dissatisfied</label>
+      </div> 
+          <div class="multiple-choice">
+        <input id="radio-2" type="radio" name="radio-group" value="Isle of Man or the Channel Islands">
+        <label for="radio-2">Very dissatisfied</label>
+      </div> 
+          
+
+    </div>
+        <h1 class="heading-medium">
+             How could we improve this service?
+              </h1>
+         <textarea class="form-control form-control-3-4" name="textarea" id="textarea" rows="5"></textarea>
+        <br>
+        <p>(Limit is 1200 characters)</p>
+        <p>Please don't include and personal or financial information, for example your National Insurance or credit card numbers.</p>
+        
+        <br>
+        <br>
+        
+    <div><a class="button" style="margin-right: 10px" href="passport.html" role="button">Send feedback</a>
+    </div>
+        
+  </div>
+      <div class="column-one-quarter" style="margin-left: 80px;">
+          <br>
+          <aside class="govuk-related-items" data-module="track-click" role="complementary"></aside>
+            <h1 class="heading-small">Passport Adviceline</h1>
+          
+          <font size="3">Telephone:</font> <br><font size="3">0300 222 0000</font><br>
+<font size="3">From outside the UK:</font> <br>
+    <font size="3">+44 (0)300 222 0000</font>
+        </div>
+</div>
+</main>
+
+{% endblock %}

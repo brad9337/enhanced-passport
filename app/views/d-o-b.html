@@ -1,0 +1,320 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <div class="phase-banner">
+    <p>
+    <strong class="phase-tag">BETA</strong>
+    <span>This is a new service – your <a href="give-feedback.html">feedback</a> will help us to improve it.</span>
+    </p>
+    </div>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+       
+
+
+
+      <a class="link-back" href="applicants-gender.html">Back</a>
+<p>Page 6 out of 17</p> 
+      <div class="form-group">
+          
+        
+          <form>
+  <div class="form-group">
+    
+      <fieldset class="inline">
+
+      <legend>
+          <h1 class="heading-large">
+            Applicants date and place of birth 
+              <h1 class="heading-medium">
+          Date of birth
+        </h1>
+        </h1>
+      </legend>
+      
+      
+    
+<fieldset>
+                                                      <legend>
+                                                        <span class="form-label-bold visuallyhidden">
+                                                          Your date of birth
+                                                        </span>
+                                                        <span class="form-hint" id="dob-hint">For example, 02 12 1980</span>
+                                                      </legend>
+                                                      <div class="form-date">
+                                                        <div class="form-group form-group-day">
+                                                          <label class="form-label" for="dob-day">Day</label>
+                                                          <input type="numeric" name="passport-issue-day" id="passport-issue-day" class="form-control" aria-required="true" min="1" max="31" maxlength="2" pattern="[0-9]*" aria-describedby="passport-issue-hint" autocomplete="passport-issue-day">
+                                                        </div>
+                                                        <div class="form-group form-group-month">
+                                                          <label class="form-label" for="dob-month">Month</label>
+                                                          <input type="numeric" name="passport-issue-day" id="passport-issue-day" class="form-control" aria-required="true" min="1" max="31" maxlength="2" pattern="[0-9]*" aria-describedby="passport-issue-hint" autocomplete="passport-issue-day">
+                                                        </div>
+                                                        <div class="form-group form-group-year">
+                                                          <label class="form-label" for="dob-year">Year</label>
+                                                          <input type="numeric" name="passport-issue-day" id="passport-issue-day" class="form-control" aria-required="true" min="1" max="31" maxlength="4" pattern="[0-9]*" aria-describedby="passport-issue-hint" autocomplete="passport-issue-day">
+                                                        </div>
+                                                      </div>
+    
+
+</fieldset>  
+        
+<fieldset>
+    <h1 class="heading-medium">
+          Were you born in the UK?
+        </h1>
+    <div class="multiple-choice">
+        <input id="radio-inline-4" type="radio" name="radio-inline-group" value="No">
+        <label for="radio-inline-4">Yes</label>
+      </div>
+      <div class="multiple-choice" data-target="contact-by-email">
+        <input id="example-contact-by-email" type="radio" name="radio-inline-group" value="No">
+        <label for="example-contact-by-email">No</label>
+      </div>
+      <div class="panel panel-border-narrow js-hidden" id="contact-by-email">
+          <select class="form-control" id="select-box" name="select-box">
+          <option></option>
+          <option>Afghanistan</option>
+    <option>Albania</option>
+    <option>Algeria</option>
+    <option>Andorra</option>
+    <option>Angola</option>
+    <option>Antigua and Barbuda </option>
+    <option>Argentina</option>
+    <option>Armenia</option>
+    <option>Aruba</option>
+    <option>Australia</option>
+    <option>Austria</option>
+    <option>Azerbaijan</option>
+    <option>Bahamas</option>
+    <option>Bahrain</option>
+    <option>Bangladesh</option>
+    <option>Barbados</option>
+    <option>Belarus</option>
+    <option>Belgium</option>
+    <option>Belize</option>
+    <option>Benin</option>
+    <option>Bermuda</option>
+    <option>Bhutan</option>
+    <option>Bolivia</option>
+    <option>Bosnia and Herzegovina</option>
+    <option>Botswana</option>
+    <option>Brazil</option>
+    <option>Brunei</option>
+    <option>Bulgaria</option>
+    <option>Burkina Faso</option>
+    <option>Burundi</option>
+    <option>Cambodia</option>
+    <option>Cameroon</option>
+    <option>Canada</option>
+    <option>Cape Verde</option>
+    <option>Central African Republic</option>
+    <option>Chad</option>
+    <option>Chile</option>
+    <option>China</option>
+    <option>Cook Islands</option>
+    <option>Colombia</option>
+    <option>Comoros</option>
+    <option>Congo</option>
+    <option>Costa Rica</option>
+    <option>Côte d'Ivoire</option>
+    <option>Croatia</option>
+    <option>Cuba</option>
+    <option>Cyprus</option>
+    <option>Czech Republic</option>
+    <option>Denmark</option>
+    <option>Djibouti</option>
+    <option>Dominica</option>
+    <option>Dominican Republic</option>
+    <option>East Timor</option>
+    <option>Ecuador</option>
+    <option>Egypt</option>
+    <option>El Salvador</option>
+    <option>Equatorial Guinea</option>
+    <option>Eritrea</option>
+    <option>Estonia</option>
+    <option>Ethiopia</option>
+    <option>Fiji</option>
+    <option>Finland</option>
+    <option>France</option>
+    <option>Faroe Islands</option>
+    <option>Gabon</option>
+    <option>Gambia</option>
+    <option>Georgia</option>
+    <option>Germany</option>
+    <option>Ghana</option>
+    <option>Greece</option>
+    <option>Grenada</option>
+    <option>Guatemala</option>
+    <option>Guinea</option>
+    <option>Guyana</option>
+    <option>Haiti</option>
+    <option>Honduras</option>
+    <option>Hungary</option>
+    <option>Iceland</option>
+    <option>India</option>
+    <option>Indonesia</option>
+    <option>Iran</option>
+    <option>Iraq</option>
+    <option>Ireland</option>
+    <option>Israel</option>
+    <option>Italy</option>
+    <option>Jamaica</option>
+    <option>Japan</option>
+    <option>Jordan</option>
+    <option>Kazakhstan</option>
+    <option>Kenya</option>
+    <option>Kiribati</option>
+    <option>Kuwait</option>
+    <option>Kyrgyzstan</option>
+    <option>Laos</option>
+    <option>Latvia</option>
+    <option>Lebanon</option>
+    <option>Lesotho</option>
+    <option>Liberia</option>
+    <option>Libya</option>
+    <option>Liechtenstein</option>
+    <option>Lithuania</option>
+    <option>Luxembourg</option>
+    <option>Macedonia</option>
+    <option>Madagascar</option>
+    <option>Malawi</option>
+    <option>Malaysia</option>
+    <option>Maldives</option>
+    <option>Mali</option>
+    <option>Malta</option>
+    <option>Marshall Islands</option>
+    <option>Mauritania</option>
+    <option>Mauritius</option>
+    <option>Mexico</option>
+    <option>Micronesia</option>
+    <option>Moldova</option>
+    <option>Monaco</option>
+    <option>Mongolia</option>
+    <option>Montenegro</option>
+    <option>Morocco</option>
+    <option>Mozambique</option>
+    <option>Myanmar</option>
+    <option>Namibia</option>
+    <option>Nauru</option>
+    <option>Nepal</option>
+    <option>Netherlands</option>
+    <option>New Zealand</option>
+    <option>Nicaragua</option>
+    <option>Niger</option>
+    <option>Nigeria</option>
+    <option>Niue</option>
+    <option>North Korea</option>
+    <option>Norway</option>
+    <option>Oman</option>
+    <option>Pakistan</option>
+    <option>Palau</option>
+    <option>Palestine</option>
+    <option>Panama</option>
+    <option>Papua New Guinea </option>
+    <option>Paraguay</option>
+    <option>Peru</option>
+    <option>Philippines</option>
+    <option>Poland</option>
+    <option>Portugal</option>
+    <option>Qatar</option>
+    <option>Romania</option>
+    <option>Russia</option>
+    <option>Rwanda</option>
+    <option>Saint Kitts and Nevis</option>
+    <option>Saint Lucia </option>
+    <option>Saint Vincent and the Grenadines</option>
+    <option>Samoa</option>
+    <option>San Marino</option>
+    <option>São Tomé and Príncipe</option>
+    <option>Saudi Arabia</option>
+    <option>Senegal</option>
+    <option>Serbia</option>
+    <option>Seychelles</option>
+    <option>Sierra Leone</option>
+    <option>Singapore</option>
+    <option>Slovakia</option>
+    <option>Slovenia</option>
+    <option>Solomon Islands</option>
+    <option>Somalia</option>
+    <option>South Africa</option>
+    <option>South Korea</option>
+    <option>South Sudan</option>
+    <option>Spain</option>
+    <option>Sri Lanka</option>
+    <option>Sudan</option>
+    <option>Suriname</option>
+    <option>Swaziland</option>
+    <option>Sweden</option>
+    <option>Switzerland</option>
+    <option>Syria</option>
+    <option>Taiwan</option>
+    <option>Tajikistan</option>
+    <option>Tanzania</option>
+    <option>Thailand</option>
+    <option>Togo</option>
+    <option>Tonga</option>
+    <option>Trinidad and Tobago</option>
+    <option>Tunisia</option>
+    <option>Turkey</option>
+    <option>Turkmenistan</option>
+    <option>Tuvalu</option>
+    <option>Uganda</option>
+    <option>Ukraine</option>
+    <option>United Arab Emirates</option>
+    <option>United Kingdom</option>
+    <option>United States</option>
+    <option>Uruguay</option>
+    <option>Uzbekistan</option>
+    <option>Vanuatu</option>
+    <option>Vatican City</option>
+    <option>Venezuela</option>
+    <option>Vietnam</option>
+    <option>Yemen</option>
+    <option>Zaire</option>
+    <option>Zambia</option>
+    <option>Zimbabwe</option>
+          </select>
+</div>
+</fieldset>  
+ </fieldset>
+  </div>
+   </form> 
+          
+          <label class="form-label" for="ni-number">
+              <h1 class="heading-medium">
+          Town of birth
+        </h1>
+  <span class="form-hint">
+    
+  </span>
+</label>
+<input class="form-control" id="ni-number" type="text" name="ni-number">
+          
+
+         
+    </div>
+    <div><a class="button" style="margin-right: 10px" href="contact.html" role="button">Continue</a>
+    <a class="button" style="margin-right: 10px" href="account.html" role="button">Save and Exit</a>
+    </div>
+        
+  </div>
+      <div class="column-one-quarter" style="margin-left: 80px;">
+          <br>
+          <aside class="govuk-related-items" data-module="track-click" role="complementary"></aside>
+            <h1 class="heading-small">Passport Adviceline</h1>
+          
+          <font size="3">Telephone:</font> <br><font size="3">0300 222 0000</font><br>
+<font size="3">From outside the UK:</font> <br>
+    <font size="3">+44 (0)300 222 0000</font>
+        </div>
+</div>
+</main>
+
+{% endblock %}
